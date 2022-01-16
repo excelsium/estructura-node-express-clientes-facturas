@@ -118,7 +118,7 @@ const deleteCustomer = async (req, res) => {
             if(deletedInvoice.deletedCount > 0) {
                 res.status(200).send({ message: 'El cliente y sus facturas han sido eliminados correctamente' });
             } else {
-                res.status(404).send({ message: 'Error al eliminar las facturas del cliente' });
+                res.status(404).send({ message: 'Cliente eliminado sin facturas asociadas' });
             }
         } else {
             res.status(404).send({ message: 'Error al eliminar al cliente' });
