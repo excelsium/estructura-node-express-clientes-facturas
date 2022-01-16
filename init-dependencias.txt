@@ -1,0 +1,55 @@
+
+guzma@ASUS ~
+$ cd /cygdrive/d/workspace/estructura-node-express/
+
+guzma@ASUS /cygdrive/d/workspace/estructura-node-express
+$ node -v
+v16.13.2
+
+guzma@ASUS /cygdrive/d/workspace/estructura-node-express
+$ npm -v
+8.3.0
+
+guzma@ASUS /cygdrive/d/workspace/estructura-node-express
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (estructura-node-express)
+version: (1.0.0)
+description: Estructura tipo framework NodeJs (v16.13.2) con Express.
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Cognitiva - Equipo de Desarrollo
+license: (ISC) MIT
+About to write to D:\workspace\estructura-node-express\package.json:
+
+{
+  "name": "estructura-node-express",
+  "version": "1.0.0",
+  "description": "Estructura tipo framework NodeJs (v16.13.2) con Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cognitiva - Equipo de Desarrollo",
+  "license": "MIT"
+}
+
+
+Is this OK? (yes) yes
+
+guzma@ASUS /cygdrive/d/workspace/estructura-node-express
+$ npm install express body-parser bcrypt jwt-simple moment mongoose cors dotenv express-validator --save
+
+guzma@ASUS /cygdrive/d/workspace/estructura-node-express
+$ npm install nodemon --save-dev
